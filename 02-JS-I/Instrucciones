@@ -7,7 +7,7 @@ Strings: son bloques de texto, van siempre entre comillas, simples o dobles y cu
 
 Funciones: 
 argumentos: sirven para especificar en detalle o ponerle un nombre a una Variable
-return: significa devolver. en caso de cometer algun error, elimina inmediatamente lo seleccionado.
+return: hace que finalice la ejecución de una función.
 
 Declaraciones if: mediante una especificacion, da la respuesta de verdadero o falso mediante a la comparacion con el valor asignado
 
