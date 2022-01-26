@@ -1,0 +1,14 @@
+
+respuestas homewok:
+
+Variables: forma de darle un valor a algo y luego poder utilizarlo o recordarlo mas tarde. son palabras claves que se utilizan para indicar algo.
+
+Strings: son bloques de texto, van siempre entre comillas, simples o dobles y cualquier texto entre comillas se considera un string.
+
+Funciones: 
+argumentos: sirven para especificar en detalle o ponerle un nombre a una Variable
+return: significa devolver. en caso de cometer algun error, elimina inmediatamente lo seleccionado.
+
+Declaraciones if: mediante una especificacion, da la respuesta de verdadero o falso mediante a la comparacion con el valor asignado
+
+Valores booleanos (true, false) codigo binario que se utiliza para elegir solo una respuesta de dos opciones, si o no, verdadero o falso, arriba o abajo, etc 
