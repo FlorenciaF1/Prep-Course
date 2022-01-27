@@ -1,0 +1,18 @@
+# Homework: Javascript II
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+Respuestas homework:
+
+`for` una de las 2 expresiones de bucle de Js (la otra es do while) y se utiliza cuando queremos repetir un conjunto de instrucciones un número infinito de veces.
+
+`&&` 'and' se utilizan para evaluar dos expresiones, si ambas son correctas el resultado será verdadero, en cualquier otro caso el resultado será false.
+
+`||` 'or' se utilizan para dar mas de una declaracion, devuelve true si alguno de los operandos es true ; si ambos son falsos, devuelve false 
+
+`!` 'not' esto significa que estamos preguntando lo contrario de la expresión y devolverá el valor opuesto de lo que se le indique.
