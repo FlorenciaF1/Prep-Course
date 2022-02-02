@@ -34,7 +34,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  array.push(elemento)
+  array.push(elemento);
   return array;
 }
 
@@ -163,7 +163,7 @@ function mesesDelAño(array) {
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
   var nuevoArray = [];
-  for(let i= 0; i<array.length; i++) {
+  for(let i = 0; i < array.length; i++) {
     if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre") {
       nuevoArray.push(array[i]);
     }
@@ -181,7 +181,7 @@ function mayorACien(array) {
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
   var nuevoArray = [];
-  for(let i= 0; i<array.length; i++) {
+  for(let i = 0; i < array.length; i++) {
     if (array[i] > 100) {
       nuevoArray.push(array[i]);
     }

@@ -5,10 +5,14 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+ if (x === y) {
+   return x || y;
+ }
  if (x > y) {
   return x;
- } 
-  return y;
+  } else {
+   return y; 
+  }
 }
 
 function mayoriaDeEdad(edad) {
@@ -98,9 +102,11 @@ function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (numero > 50 && numero < 20) {
+  if (numero < 50 && numero > 20) {
     return true;
-  } 
+  } else {
+    return false;
+  }
 }
 
 function esEntero(numero) {
@@ -111,10 +117,12 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if (numero % 1 === 0) {
+  if (numero === Math.floor(numero)) {
     return true;
+  } else {
+    return false;
   }
-} 
+}
 
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
@@ -127,7 +135,7 @@ function fizzBuzz(numero) {
   if (numero % 5 === 0) {
     return "buzz"
   }
-  if (numero % 15 === 0) {
+  if (numero % 3 === 0 && numero % 5 === 0) {
     return "fizzbuzz"
   }
   else {
@@ -150,6 +158,9 @@ function operadoresLogicos(num1, num2, num3) {
   }
   else if (num1 > 0 && num1 > num2 && num1 > num3) {
     return "Número 1 es mayor y positivo"
+  }
+  else if (num3 > numo1 && nume3 > num2) {
+    return num3 + 1;
   }
   else {
     return false;
@@ -188,11 +199,11 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  let arrayTablaDel6 = []
-  for (let i = 0; i < 11; i++) {
-    arrayTablaDel6.push(6 * i)
+  var array = []
+  for (var i = 0; i < 11; i++) {
+    array.push(i * 6)
   }
-  return arrayTablaDel6
+  return array
 }
 
 function tieneTresDigitos(numero){
