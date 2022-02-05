@@ -23,5 +23,4 @@ Bucle, for in: realiza varias veces la accion de buscar entre las propiedades en
 Notacion de puntos vs notacion de corchetes:
 ambas notaciones pueden acceder a las propiedades del objeto.
 utilizaremos notacion de puntos unicamente cuando si conocemos el nombre de la propiedad a la que queremos acceder. 
-de lo contrario, si el nombre del propiedad se almacena dentro de un objeto, se utilizara la notación de corchetes.
-
+de lo contrario, se utilizara la notación de corchetes, esta buscara dentro de un objeto la propiedad que contenga la variable.
