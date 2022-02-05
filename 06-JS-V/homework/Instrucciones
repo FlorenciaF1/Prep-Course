@@ -1,0 +1,15 @@
+# Homework: Javascript V
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`
+* _Constructors_ (de Clases)
+
+Respuestas Homework 06:
+
+Protoype: es capacidad de grabar un modo de ejecutar algo y poder aplicarlo infinitas veces sin necesidad de escribirlo una y otra vez y cometer errores. es dejar como predeterminado una funcion que mas tarde vas a poder utilizar simplemente mencionandola.
+
+Constructor de clase: metodo que solo puede ser utilizado una vez. habra un error si en la clase hay mas de un constructor.
+tambien es conocido como 'clase' y se utilizan para crear muchos objetos que comparten metodos y propuedades.
