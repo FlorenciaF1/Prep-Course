@@ -129,18 +129,16 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  if (numero % 3 === 0) {
-    return "fizz"
+  if(numero % 15 === 0) {
+   return 'fizzbuzz';
   }
-  if (numero % 5 === 0) {
-    return "buzz"
+  if(numero % 3 === 0) {
+    return 'fizz';
   }
-  if (numero % 3 === 0 && numero % 5 === 0) {
-    return "fizzbuzz"
+  if(numero % 5 === 0) {
+    return 'buzz';
   }
-  else {
-    return numero
-  }
+    return numero;
 }
 
 function operadoresLogicos(num1, num2, num3) {
@@ -159,7 +157,7 @@ function operadoresLogicos(num1, num2, num3) {
   else if (num1 > 0 && num1 > num2 && num1 > num3) {
     return "Número 1 es mayor y positivo"
   }
-  else if (num3 > numo1 && nume3 > num2) {
+  else if (num3 > num1 && num3 > num2) {
     return num3 + 1;
   }
   else {
@@ -176,10 +174,14 @@ function esPrimo(numero) {
   if (numero < 2) {
     return false;
   }
-  for (var i = 2; i < numero; i ++) 
-    if (numero % i === o) {
+  if (numero === 2) {
+    return true;
+  }
+  for (var i = 2; i < numero; i++) {
+    if (numero % i === 0) {
       return false;
     }
+  }
   return true;
 }
 
