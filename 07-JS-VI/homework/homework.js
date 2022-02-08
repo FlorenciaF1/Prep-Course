@@ -25,6 +25,10 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código: 
+  // var sumaTotal = numeros.reduce(function(acc, curr) {
+  //   return acc + curr;
+  // },0);
+  // cb(sumaTotal);
   var numeros = [1,2,3,4,5]
   var suma = 0
   for (let i = 0; i < numeros.length; i++) {
@@ -41,7 +45,7 @@ function forEach(array, cb) {
   //      cb(array[i]);
   //    }
   //  }
-  array.forEach(function(valores, index) {
+  array.forEach(function(valores) {
   cb(valores);
   });
 }
@@ -69,6 +73,11 @@ function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
+  // return array.filter(function(palabra) {
+  //   return palabra[0] === 'a' 
+  // })
+  // return resultado
+  // }
   var nuevoArray = [];
   for (let i = 0; i < array.length; i++) {
     if (array[i][0] === 'a') {
