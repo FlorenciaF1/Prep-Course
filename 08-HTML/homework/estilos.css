@@ -1,0 +1,24 @@
+h1 {
+    color: midnightblue;
+    text-align:center
+}
+h2 {
+    text-align:center    
+}
+img {
+    max-width: 45%;
+    max-height: 45%;
+}
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/307/727/non_2x/watercolor-pastel-background-hand-painted-aquarelle-colorful-stains-on-paper-vector.jpg");
+    text-align: center;
+}
+#thirdDiv {      
+    background-color: seashell;
+    border: 8px dashed orangered;
+    text-align:center
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px
+}
