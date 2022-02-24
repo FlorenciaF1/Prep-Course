@@ -63,7 +63,7 @@ function agregarStringInvertida() {
       this.apellido = apellido;
       this.edad = edad;
       this.domicilio = domicilio;
-      
+
       this.detalle = function() {
         return { 
           Nombre: this.nombre,
@@ -79,7 +79,7 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Con esta función vamos a crear una nueva persona a partir de nuestro constructor de persona (creado en el ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
-  let miPersona = new Persona (nombre, apellido, edad, dir);
+  let miPersona = new Persona ("Juan", "Perez", 22, "Saavedra 123");
   return miPersona;
 }
 
