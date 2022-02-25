@@ -25,11 +25,11 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código: 
-  // var sumaTotal = numeros.reduce(function(acc, curr) {
-  //   return acc + curr;
-  // },0);
-  // cb(sumaTotal);
-  var numeros = [1,2,3,4,5]
+  // var suma = numeros.reduce(function(a,b) {
+  // return a + b
+  // })
+  // cb(suma);
+  
   var suma = 0
   for (let i = 0; i < numeros.length; i++) {
     suma = suma + numeros[i];
@@ -45,8 +45,8 @@ function forEach(array, cb) {
   //      cb(array[i]);
   //    }
   //  }
-  array.forEach(function(valores) {
-  cb(valores);
+  array.forEach(function(valor) {
+  cb(valor);
   });
 }
 
